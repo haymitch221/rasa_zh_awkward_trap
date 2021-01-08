@@ -1,0 +1,44 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+responses:
+  utter_greet:
+  - text: 你好！
+  - text: 你好呀！
+  - text: 和你聊很开心！
+  - text: 嗨！
+  - text: 嘿！
+  - text: 嘿嘿！
+  utter_cheer_up:
+  - text: 没事，高兴一点！
+  - text: 你我都要加油哦！
+  - text: 打起精神来，这才开始嘛
+  utter_did_that_help:
+  - text: 好吗？
+  - text: 可以吗？
+  - text: 对你有帮助吗？
+  - text: 行吗？
+  utter_happy:
+  - text: 很棒，继续努力哟!
+  - text: 不错，加油!
+  - text: 很好，我们一起努力!
+  utter_goodbye:
+  - text: 再见！
+  - text: 我会想你的！
+  - text: 别忘记我呀！
+  utter_iamabot:
+  - text: 为什么你会在意呢！
+  - text: 我希望我能有生命！
+  - text: 我希望我能认真思考这个问题！
+  - text: 那我们先边走边看，怎么样？
+  - text: 我想会有办法的，聪明的你怎么看？
+  - text: 的确，我也想不到那么多办法，希望我能多学点东西呢！
+  - text: 要是能有更多人陪我聊聊，也许就能解决你的困惑了呢！

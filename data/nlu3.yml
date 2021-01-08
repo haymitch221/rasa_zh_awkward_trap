@@ -1,0 +1,9 @@
+version: "2.0"
+
+nlu:
+- intent: bot_challenge
+  examples: |
+    - 你是机器人吗
+    - 你是人吗
+    - 你会思考吗
+    - 你是程序吗
